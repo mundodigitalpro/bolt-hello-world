@@ -1,0 +1,21 @@
+body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      color: #00698f;
+      font-size: 48px;
+      margin-top: 100px;
+    }
+    .animation {
+      animation: hello-world 5s infinite;
+    }
+    @keyframes hello-world {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
